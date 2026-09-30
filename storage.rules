@@ -1,0 +1,55 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper function to verify user is accessing their own storage folder
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Validate image files (Crop Doctor & Soil report images)
+    function isValidImage() {
+      return request.resource.size < 10 * 1024 * 1024 // 10 MB limit
+          && request.resource.contentType.matches('image/(jpeg|png|webp)');
+    }
+
+    // Validate document files (Soil reports)
+    function isValidDocument() {
+      return request.resource.size < 15 * 1024 * 1024 // 15 MB limit
+          && (request.resource.contentType.matches('image/(jpeg|png|webp)')
+              || request.resource.contentType == 'application/pdf');
+    }
+
+    // Crop Doctor images: isolated under users/{userId}/cropDoctor/{fileId}
+    match /users/{userId}/cropDoctor/{allPaths=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidImage();
+      allow delete: if isOwner(userId);
+    }
+
+    // Soil reports (PDF/image): isolated under users/{userId}/soilReports/{fileId}
+    match /users/{userId}/soilReports/{allPaths=**} {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidDocument();
+      allow delete: if isOwner(userId);
+    }
+
+    // User profile pictures: isolated under users/{userId}/profile/{fileId}
+    match /users/{userId}/profile/{allPaths=**} {
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId) && isValidImage();
+      allow delete: if isOwner(userId);
+    }
+
+    // Default deny all other storage paths
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

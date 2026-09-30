@@ -1,0 +1,17 @@
+original_crop_name,normalized_crop_name,current_mapping,proposed_mapping,mapping_status,mapping_confidence,reason_for_review,source_files
+Bean,Bean (unspecified),Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Bhatt,Bhatt,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+China,Unknown,Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Culacatti,Unknown,Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Dilseed,Unknown Oilseed,Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Green,Unknown (possibly Green Gram),Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Khesari,Lathyrus / Khesari,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Kudrum,Kodo Millet,Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Mesta,Jute,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+PEAS,Pea,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Pea,Pea,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Peas,Pea,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Sava,Barnyard Millet,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Sawan,Barnyard Millet,Unsupported,Unsupported,Uncertain,Medium,"Status=Uncertain, Confidence=Medium. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+TEORA,Teora (Brassica variety),Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",Crop_Calendar_Validated.csv
+Tapioca(Suran),Tapioca / Elephant Yam,Unsupported,Unsupported,Uncertain,Low,"Status=Uncertain, Confidence=Low. Requires human verification before use in Crop Advisor.",fertilizer_merged.csv

@@ -1,0 +1,101 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper function to verify user is accessing their own data
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Users collection: private user profile and preferences
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+      
+      // User-specific settings subcollection
+      match /settings/{settingId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // User-specific crop doctor records subcollection
+      match /cropDoctorRecords/{recordId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+
+    // Farms collection: strict multi-user isolation
+    // Each farm must have userId == request.auth.uid
+    match /farms/{farmId} {
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+
+      // Subcollections under farm (plots, logs)
+      match /{allSubcollections=**} {
+        allow read, write: if isAuthenticated() && 
+          get(/databases/$(database)/documents/farms/$(farmId)).data.userId == request.auth.uid;
+      }
+    }
+
+    // Crop Doctor diagnoses: isolated per user
+    match /cropDoctorRecords/{recordId} {
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    // Crop Advisor recommendations: isolated per user
+    match /cropAdvisorRecords/{recordId} {
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    // Notifications: isolated per user
+    match /notifications/{notificationId} {
+      allow read, update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Public / Shared agricultural reference data: read-only for authenticated farmers
+    // Master crops list
+    match /crops/{cropId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Admin only via backend
+    }
+
+    // Government Schemes: verified read-only data for authenticated farmers
+    match /governmentSchemes/{schemeId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Admin only
+    }
+
+    // Mandi Market Rates: read-only for authenticated farmers
+    match /marketPrices/{priceId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Admin / automated ingestion only
+    }
+
+    // Support Contacts & FAQs
+    match /supportInfo/{docId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    // Feedback: authenticated users can submit feedback
+    match /supportFeedback/{feedbackId} {
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow read, update, delete: if false; // Private feedback
+    }
+
+    // Default deny for all other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

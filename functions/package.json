@@ -1,0 +1,25 @@
+{
+  "name": "farmhelper-functions",
+  "version": "1.0.0",
+  "description": "FarmHelper Secure Backend & Gemini Multimodal AI Integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "node index.js",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "firebase-functions": "^6.3.2",
+    "nodemailer": "^10.0.12"
+  }
+}

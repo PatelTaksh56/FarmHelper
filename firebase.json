@@ -1,0 +1,50 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/diagnoseCrop",
+        "function": "diagnoseCrop"
+      },
+      {
+        "source": "/adviseCrop",
+        "function": "adviseCrop"
+      },
+      {
+        "source": "/extractSoilReport",
+        "function": "extractSoilReport"
+      },
+      {
+        "source": "/getMarketPrices",
+        "function": "getMarketPrices"
+      },
+      {
+        "source": "/marketPrices",
+        "function": "marketPrices"
+      },
+      {
+        "source": "/sendTestEmail",
+        "function": "sendTestEmail"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

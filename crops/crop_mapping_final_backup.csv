@@ -1,0 +1,405 @@
+crop_id,original_crop_name,normalized_crop_name,farmhelper_crop_name,crop_category,mapping_status,mapping_confidence,source_files,mapping_reason
+UNSUPPORTED,Ajwain,Ajwain (Carom Seeds),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Ajwain (Trachyspermum ammi) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Almond Nut,Almond,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Almond is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Amaranths,Amaranth,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Amaranth (grain/leaf) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Aniseed,Aniseed,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Aniseed is not in the current FarmHelper supported crop list.
+C037,Apple,Apple,Apple,Fruits,Exact,High,combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+UNSUPPORTED,Apricot,Apricot,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Apricot is not in the current FarmHelper supported crop list.
+C015,Arahar,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Arahar is a spelling variant of Arhar; both refer to Pigeon Pea.
+UNSUPPORTED,Arecanut,Areca Nut (Betel Nut),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Areca Nut is not in the current FarmHelper supported crop list.
+C015,Arhar,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Arhar is the Hindi/North Indian name for Pigeon Pea (Tur).
+C015,Arhar (Long Duration),Pigeon Pea,Pigeon Pea,Pulses,Variant,High,Crop_Calendar_Validated.csv,Long-duration variety tag; the crop is Pigeon Pea.
+C015,Arhar (Short Duration),Pigeon Pea,Pigeon Pea,Pulses,Variant,High,Crop_Calendar_Validated.csv,Short-duration variety tag; the crop is Pigeon Pea.
+C015,Arhar/,Pigeon Pea,Pigeon Pea,Pulses,Variant,High,Crop_Calendar_Validated.csv,Truncated entry; Arhar/ is clearly Arhar (Pigeon Pea) with a trailing slash.
+C015,Arhar/pigeonpea,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Compound name explicitly linking Arhar to Pigeon Pea.
+UNSUPPORTED,Asafoetida,Asafoetida (Hing),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,"Asafoetida (Hing) is a spice resin, not a crop, and not in the current FarmHelper supported crop list."
+UNSUPPORTED,Ash Gourd,Ash Gourd,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Ash Gourd (Winter Melon) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Autumn Sugarcane,Sugarcane,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Autumn season qualifier; Sugarcane not in FarmHelper's supported crop list.
+C005,BAJRA,Pearl Millet,Pearl Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Bajra; Bajra = Pearl Millet.
+C001,BARLEY,Barley,Barley,Cereals,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Barley.
+C010,BENGALGRAM,Chickpea,Chickpea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Bengal Gram is the standard Indian name for Chickpea (desi variety).
+C009,BLACKGRAM,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,All-caps compound form of Black Gram.
+C005,Bajara,Pearl Millet,Pearl Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,Bajara is a common spelling variant of Bajra (Pearl Millet).
+C005,Bajra,Pearl Millet,Pearl Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,Bajra is the Indian common name for Pearl Millet.
+C038,Banana,Banana,Banana,Fruits,Exact,High,combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C001,Barley,Barley,Barley,Cereals,Exact,High,Crop_Calendar_Validated.csv; combined_output.csv,Exact match to FarmHelper crop name.
+C001,Barley (Jau),Barley,Barley,Cereals,Alias,High,combined_output.csv,Jau is the Hindi name for Barley.
+C001,Barley(JAV),Barley,Barley,Cereals,Alias,High,fertilizer_merged.csv,JAV is an abbreviation/transliteration of Jav/Jau (Hindi: Barley).
+UNSUPPORTED,Bay Leaf,Bay Leaf,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Bay Leaf is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Bean,Bean (unspecified),Unsupported,Unsupported,Uncertain,Low,Crop_Calendar_Validated.csv,Bean is too generic to map safely; could be many distinct legume species.
+UNSUPPORTED,Beetroot,Beetroot,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Beetroot is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Bhatt,Bhatt,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,Bhatt typically refers to a black-seeded soybean-like legume in Uttarakhand (Glycine soja or a local landrace). Cannot safely map to FarmHelper's Soybean without confirmation. Kept Uncertain.
+C030,Bhindi (Okra),Okra,Okra,Vegetables,Alias,High,Crop_Calendar_Validated.csv,Bhindi is the Hindi name for Okra.
+C021,Bitter Gourd,Bitter Gourd,Bitter Gourd,Vegetables,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C021,Bitter Gourd (Karela),Bitter Gourd,Bitter Gourd,Vegetables,Alias,High,combined_output.csv,Karela is the Hindi name for Bitter Gourd.
+C009,Black Gram,Black Gram,Black Gram,Pulses,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C009,Black Gram (Urad),Black Gram,Black Gram,Pulses,Alias,High,combined_output.csv,Urad is the Hindi name for Black Gram.
+C048,Black Pepper,Black Pepper,Black Pepper,Spices,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C048,Black Pepper (Kali Mirch),Black Pepper,Black Pepper,Spices,Alias,High,combined_output.csv,Kali Mirch is the Hindi name for Black Pepper.
+UNSUPPORTED,Black eyed beans( chawli),Cowpea / Black-Eyed Pea,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Black-eyed beans / Cowpea (Chawli/Lobia) not in FarmHelper's supported list.
+C009,Black gram,Black Gram,Black Gram,Pulses,Variant,High,Crop_Calendar_Validated.csv,Capitalization variant of Black Gram.
+C009,Blackgram,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,No-space compound form of Black Gram.
+C022,Bottle Gourd,Bottle Gourd,Bottle Gourd,Vegetables,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C022,Bottle Gourd (Lauki),Bottle Gourd,Bottle Gourd,Vegetables,Alias,High,combined_output.csv,Lauki is the Hindi name for Bottle Gourd.
+C023,Brinjal,Brinjal,Brinjal,Vegetables,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C023,Brinjal (Eggplant/Baingan),Brinjal,Brinjal,Vegetables,Alias,High,combined_output.csv,Eggplant/Baingan are alternate names for Brinjal.
+UNSUPPORTED,CASTOR,Castor,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Castor (Ricinus communis) is not in the current FarmHelper supported crop list.
+C019,COTTON,Cotton,Cotton,Cash Crops,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Cotton.
+C024,Cabbage,Cabbage,Cabbage,Vegetables,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C024,Cabbage (Band Gobi),Cabbage,Cabbage,Vegetables,Alias,High,combined_output.csv,Band Gobi is the Hindi name for Cabbage.
+UNSUPPORTED,Capsicum,Capsicum (Bell Pepper),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Capsicum/Bell Pepper is not in the current FarmHelper supported crop list.
+C049,Cardamom,Cardamom,Cardamom,Spices,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C049,Cardamom (Elaichi),Cardamom,Cardamom,Spices,Alias,High,combined_output.csv,Elaichi is the Hindi name for Cardamom.
+C025,Carrot,Carrot,Carrot,Vegetables,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+UNSUPPORTED,Cashewnuts,Cashew,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Cashew is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Castor,Castor,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Castor is not in the current FarmHelper supported crop list.
+C026,Cauliflower,Cauliflower,Cauliflower,Vegetables,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C026,Cauliflower (Phool Gobi),Cauliflower,Cauliflower,Vegetables,Alias,High,combined_output.csv,Phool Gobi is the Hindi name for Cauliflower.
+UNSUPPORTED,Chena Sawan,Proso Millet,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Chena Sawan refers to Proso Millet, a distinct millet not supported by FarmHelper."
+UNSUPPORTED,Chickoo,Chickoo (Sapodilla),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Chickoo (Sapodilla / Chiku) is not in the FarmHelper supported crop list.
+C010,Chickpea,Chickpea,Chickpea,Pulses,Exact,High,Crop_Calendar_Validated.csv,Exact match to FarmHelper crop name.
+C010,Chickpea (Gram),Chickpea,Chickpea,Pulses,Alias,High,combined_output.csv,Gram is the common Indian name for Chickpea.
+C010,Chickpeas(Channa),Chickpea,Chickpea,Pulses,Alias,High,fertilizer_merged.csv,Channa/Chana is the Hindi name for Chickpea.
+UNSUPPORTED,Chikori,Chicory,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Chicory is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Chili,Chilli,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Chili (alternate spelling) is not in the FarmHelper supported crop list.
+UNSUPPORTED,Chilli,Chilli,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Green/Red Chilli is not in the current FarmHelper supported crop list.
+UNSUPPORTED,China,Unknown,Unsupported,Unsupported,Uncertain,Low,Crop_Calendar_Validated.csv,China as a crop name is unrecognized in standard Indian agricultural datasets. Possibly a data entry error.
+UNSUPPORTED,Cinnamon,Cinnamon,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Cinnamon is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Cloves,Cloves,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Cloves are not in the current FarmHelper supported crop list.
+UNSUPPORTED,Cluster Beans(Gavar),Cluster Bean (Guar),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Cluster Bean / Gavar (Guar) is not in the FarmHelper supported crop list.
+UNSUPPORTED,Clusterbean,Cluster Bean (Guar),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Cluster Bean (Guar/Guvar) is a distinct legume not supported by FarmHelper.
+C039,Coconut,Coconut,Coconut,Fruits,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C039,Coconut (Nariyal),Coconut,Coconut,Fruits,Alias,High,combined_output.csv,Nariyal is the Hindi name for Coconut.
+UNSUPPORTED,Coffee,Coffee,Unsupported,Unsupported,Unsupported,High,combined_output.csv; fertilizer_merged.csv,Coffee is not in the current FarmHelper supported crop list.
+C050,Coriander,Coriander,Coriander,Spices,Exact,High,Crop_Calendar_Validated.csv,Exact match to FarmHelper crop name.
+C050,Coriander (Dhania),Coriander,Coriander,Spices,Alias,High,combined_output.csv,Dhania is the Hindi name for Coriander.
+C050,Coriander leaves,Coriander,Coriander,Spices,Alias,High,fertilizer_merged.csv,Coriander leaves are a use of the same Coriander plant.
+C050,Coriander seeds,Coriander,Coriander,Spices,Alias,High,fertilizer_merged.csv,Coriander seeds refers to the crop Coriander.
+C050,Coriender,Coriander,Coriander,Spices,Variant,High,Crop_Calendar_Validated.csv,Coriender is a misspelling of Coriander.
+C019,Cotton,Cotton,Cotton,Cash Crops,Exact,High,Crop_Calendar_Validated.csv; combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C019,Cotton (Kapash),Cotton,Cotton,Cash Crops,Alias,High,combined_output.csv,Kapas/Kapash is the Hindi name for Cotton.
+UNSUPPORTED,Cow pea,Cowpea,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Cowpea (Lobia/Chawli) is not in the current FarmHelper supported crop list.
+C027,Cucumber,Cucumber,Cucumber,Vegetables,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C027,Cucumber (Kheera),Cucumber,Cucumber,Vegetables,Alias,High,combined_output.csv,Kheera is the Hindi name for Cucumber.
+UNSUPPORTED,Culacatti,Unknown,Unsupported,Unsupported,Uncertain,Low,Crop_Calendar_Validated.csv,Culacatti is not a recognized standard Indian crop name. Possibly a local/dialect term or data entry error.
+UNSUPPORTED,Cumin,Cumin,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Cumin is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Cumin seeds,Cumin,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Cumin seeds refers to the Cumin crop; not in FarmHelper's supported crop list.
+UNSUPPORTED,Curry leaves,Curry Leaf,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Curry leaves are not in the current FarmHelper supported crop list.
+UNSUPPORTED,Custard apple,Custard Apple,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Custard Apple (Sitaphal) is not in FarmHelper's supported crop list.
+UNSUPPORTED,Dates,Dates,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Dates (Phoenix dactylifera) are not in the current FarmHelper supported crop list.
+UNSUPPORTED,Dilseed,Unknown Oilseed,Unsupported,Unsupported,Uncertain,Low,Crop_Calendar_Validated.csv,Dilseed is not a recognized standard crop name. Could be a data entry error.
+C028,Drumstick (Moringa/Sahjan),Drumstick,Drumstick,Vegetables,Alias,High,combined_output.csv,Moringa/Sahjan are alternate names; the crop is Drumstick.
+C028,Drumstick – moringa,Drumstick,Drumstick,Vegetables,Alias,High,fertilizer_merged.csv,En-dash encoding artifact in Drumstick–moringa; same crop as Drumstick (Moringa).
+UNSUPPORTED,Fava beans (Papdi - Val),Fava Bean,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Fava Bean (Papdi/Val) is not in the FarmHelper supported crop list.
+UNSUPPORTED,Fennel,Fennel,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Fennel (Saunf) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Fenugreek,Fenugreek,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Fenugreek (Methi) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Fenugreek Leaf(methi),Fenugreek,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Methi/Fenugreek leaf refers to the Fenugreek crop; not in FarmHelper's list.
+UNSUPPORTED,Field Pea,Field Pea,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Field Pea is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Fieldpea,Field Pea,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Fieldpea (no-space) = Field Pea; not supported by FarmHelper.
+UNSUPPORTED,Figs,Figs,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Figs are not in the current FarmHelper supported crop list.
+UNSUPPORTED,Fodar,Fodder (generic),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Fodar appears to be a misspelling/variant of Fodder; not a specific crop.
+UNSUPPORTED,Fodder,Fodder (generic),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Fodder is a use category, not a specific crop."
+UNSUPPORTED,Fodder Pearlmillet,Fodder Pearl Millet,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Fodder pearl millet grown for animal feed. Not supported by FarmHelper.
+UNSUPPORTED,Fodder sorghum,Fodder Sorghum,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Fodder sorghum grown for animal feed. Not supported by FarmHelper.
+UNSUPPORTED,Fooder,Fodder (generic),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Fooder is a misspelling of Fodder; not a specific crop.
+UNSUPPORTED,Foxtail Millet,Foxtail Millet,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Foxtail Millet is a distinct millet species not currently supported by FarmHelper.
+UNSUPPORTED,French Beans(Farasbi),French Beans,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,French Beans (Farasbi) are not in the current FarmHelper supported crop list.
+UNSUPPORTED,Funnel,Fennel,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Funnel is a misspelling of Fennel (Saunf); not in FarmHelper's list.
+C010,GRAM,Chickpea,Chickpea,Pulses,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Gram; in Indian agri. context Gram = Chickpea.
+C011,GREEN GRAM,Green Gram,Green Gram,Pulses,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Green Gram.
+C011,GREENGRAM,Green Gram,Green Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,No-space all-caps form of Green Gram.
+UNSUPPORTED,GROUNDNUT,Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Groundnut (Peanut) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,GROUNDNUT (Rabi/Summer),Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Groundnut with season qualifier; not in FarmHelper supported crop list.
+UNSUPPORTED,GROUNDNUT Irr,Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Irrigated Groundnut; Groundnut not in FarmHelper's supported crop list.
+UNSUPPORTED,GROUNDNUT Urr,Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Un-irrigated Groundnut; Groundnut not in FarmHelper's supported crop list.
+C012,Gahat,Horse Gram,Horse Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Gahat is a Uttarakhand/Himalayan regional name for Horse Gram.
+UNSUPPORTED,Garcinia indica(kokam),Kokam,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Kokam (Garcinia indica) is not in the current FarmHelper supported crop list.
+C029,Garlic,Garlic,Garlic,Vegetables,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C029,Garlic (Lehsun),Garlic,Garlic,Vegetables,Alias,High,combined_output.csv,Lehsun is the Hindi name for Garlic.
+UNSUPPORTED,Ginger,Ginger,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Ginger is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Gooseberry(Amla),Amla (Indian Gooseberry),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Amla (Indian Gooseberry) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Gowar,Cluster Bean (Guar),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Gowar/Gwar is a variant spelling of Guar (Cluster Bean); not supported.
+C010,Gram,Chickpea,Chickpea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Gram/Bengal Gram are common Indian names for Chickpea.
+C040,Grapes,Grapes,Grapes,Fruits,Exact,High,combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+UNSUPPORTED,Green,Unknown (possibly Green Gram),Unsupported,Unsupported,Uncertain,Low,Crop_Calendar_Validated.csv,Green alone is too ambiguous; could refer to Green Gram or green vegetables. Cannot map safely.
+C011,Green Gram,Green Gram,Green Gram,Pulses,Exact,High,Crop_Calendar_Validated.csv,Exact match to FarmHelper crop name.
+UNSUPPORTED,Green Peas,Garden Pea,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Garden/Green Peas are not in the current FarmHelper supported crop list.
+C011,Greengram,Green Gram,Green Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,No-space form of Green Gram.
+UNSUPPORTED,Ground Nut,Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Ground Nut = Groundnut; not in FarmHelper's supported crop list.
+UNSUPPORTED,Ground nut,Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Ground nut = Groundnut; not in FarmHelper's supported crop list.
+UNSUPPORTED,Groundnut,Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Groundnut (Peanut) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Guava,Guava,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Guava is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Guvar,Cluster Bean (Guar),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Guvar is a Gujarati name for Guar/Cluster Bean; not supported by FarmHelper.
+C012,HORSE GRAM,Horse Gram,Horse Gram,Pulses,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Horse Gram.
+C012,HORSEGRAM,Horse Gram,Horse Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,No-space form of Horse Gram.
+C012,Horse Gram (Kulthi),Horse Gram,Horse Gram,Pulses,Alias,High,combined_output.csv,Kulthi is the Hindi name for Horse Gram.
+C012,Horse Gram(kulthi),Horse Gram,Horse Gram,Pulses,Alias,High,fertilizer_merged.csv,Kulthi is the Hindi name for Horse Gram.
+C012,Horsegram,Horse Gram,Horse Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,No-space form of Horse Gram.
+C019,Irr. Cotton,Cotton,Cotton,Cash Crops,Variant,High,Crop_Calendar_Validated.csv,Irrigated qualifier; the crop is Cotton.
+UNSUPPORTED,Isabgol,Isabgol (Psyllium),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Isabgol (Psyllium husk) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Isabgul,Isabgol (Psyllium),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Isabgul is a variant spelling of Isabgol (Psyllium); not in FarmHelper's list.
+UNSUPPORTED,Isbgol,Isabgol (Psyllium),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Isbgol is a variant spelling of Isabgol (Psyllium); not in FarmHelper's list.
+C007,JOWAR,Sorghum,Sorghum,Cereals,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Jowar; Jowar = Sorghum.
+C041,Jackfruit,Jackfruit,Jackfruit,Fruits,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C041,Jackfruit (Kathal),Jackfruit,Jackfruit,Fruits,Alias,High,combined_output.csv,Kathal is the Hindi name for Jackfruit.
+UNSUPPORTED,Jaiphal(Nutmeg),Nutmeg,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Nutmeg is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Jambun(Syzygium cumini),Java Plum (Jamun),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Jamun/Java Plum is not in the current FarmHelper supported crop list.
+C007,Jowar,Sorghum,Sorghum,Cereals,Alias,High,Crop_Calendar_Validated.csv,Jowar is the Indian name for Sorghum.
+C007,Jowar (Sorghum),Sorghum,Sorghum,Cereals,Alias,High,combined_output.csv,Explicit parenthetical confirms: Jowar = Sorghum.
+C007,Jowar(Sorghum),Sorghum,Sorghum,Cereals,Alias,High,fertilizer_merged.csv,Parenthetical confirms: Jowar = Sorghum.
+C020,Jute,Jute,Jute,Cash Crops,Exact,High,Crop_Calendar_Validated.csv; combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C007,Juvar,Sorghum,Sorghum,Cereals,Alias,High,Crop_Calendar_Validated.csv,Juvar is a Gujarati/regional variant name for Sorghum (Jowar).
+UNSUPPORTED,KODOKUTKI,Kodo Millet,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Kodo-Kutki refers to Kodo and Little Millet, neither supported by FarmHelper."
+C012,KULTHI,Horse Gram,Horse Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Kulthi is the Hindi name for Horse Gram.
+C005,Kharif Bajri,Pearl Millet,Pearl Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,Bajri is a regional name for Pearl Millet; Kharif is the season.
+UNSUPPORTED,Khesari,Lathyrus / Khesari,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,Khesari (Lathyrus sativus / Grass pea) is a distinct legume from Lentil. Not supported by FarmHelper.
+UNSUPPORTED,Kidney Beans (Rajma),Kidney Bean (Rajma),Unsupported,Unsupported,Unsupported,High,combined_output.csv,Kidney Beans (Rajma) are not in the current FarmHelper supported crop list.
+UNSUPPORTED,Kidney beans,Kidney Bean (Rajma),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Kidney Beans are not in the current FarmHelper supported crop list.
+UNSUPPORTED,Kudrum,Kodo Millet,Unsupported,Unsupported,Uncertain,Low,Crop_Calendar_Validated.csv,Kudrum may refer to Kodo Millet; not confirmed. Not supported by FarmHelper.
+C012,Kulthi,Horse Gram,Horse Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Kulthi is the Hindi name for Horse Gram.
+C013,LENTIL,Lentil,Lentil,Pulses,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Lentil.
+UNSUPPORTED,LINSEED,Linseed,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Linseed/Flaxseed is not in the current FarmHelper supported crop list.
+C030,Lady Finger,Okra,Okra,Vegetables,Alias,High,fertilizer_merged.csv,Lady Finger is a common Indian English name for Okra.
+C030,Lady Finger (Okra/Bhindi),Okra,Okra,Vegetables,Alias,High,combined_output.csv,Explicit parenthetical confirms Lady Finger = Okra/Bhindi.
+UNSUPPORTED,Lathyrus,Lathyrus / Grass Pea,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Lathyrus sativus (Grass Pea / Khesari) is a distinct crop not supported by FarmHelper.
+UNSUPPORTED,Lemon,Lemon,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Lemon is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Lemon Grass,Lemon Grass,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Lemon Grass is not in the current FarmHelper supported crop list.
+C013,Lentil,Lentil,Lentil,Pulses,Exact,High,Crop_Calendar_Validated.csv,Exact match to FarmHelper crop name.
+C013,Lentil (Masoor),Lentil,Lentil,Pulses,Alias,High,combined_output.csv,Masoor is the Hindi name for Lentil.
+C013,Lentils(Masoor Dal),Lentil,Lentil,Pulses,Alias,High,fertilizer_merged.csv,Masoor Dal is the split form of Lentil; same crop.
+UNSUPPORTED,Lima beans(Pavta),Lima Bean,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Lima Bean (Pavta) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Linseed,Linseed,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Linseed is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Linseed Rabi,Linseed,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Rabi Linseed; Linseed not in FarmHelper's supported crop list.
+UNSUPPORTED,Lucern,Lucerne (Alfalfa),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Lucerne (Alfalfa) is a fodder crop not in FarmHelper's supported crop list.
+C004,MAIZE,Maize,Maize,Cereals,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Maize.
+C011,MOONG,Green Gram,Green Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Moong; Moong = Green Gram.
+C004,Maize,Maize,Maize,Cereals,Exact,High,Crop_Calendar_Validated.csv; combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C004,Maize (Corn),Maize,Maize,Cereals,Alias,High,combined_output.csv,Corn is the North American name for Maize; same crop.
+UNSUPPORTED,Maize (Fodder),Maize (Fodder),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Fodder maize grown for animal feed, not grain. Not supported by FarmHelper Crop Advisor."
+C004,Maize (Rabi),Maize,Maize,Cereals,Variant,High,Crop_Calendar_Validated.csv,Rabi season qualifier; the crop is Maize.
+C003,Mandua,Finger Millet,Finger Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,Mandua is a North Indian name for Finger Millet (Ragi).
+C042,Mango,Mango,Mango,Fruits,Exact,High,combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C009,Mash,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Mash is a Punjab/Pakistani name for Black Gram (Urad).
+C014,Math,Moth Bean,Moth Bean,Pulses,Alias,High,Crop_Calendar_Validated.csv,Math is a Gujarati/regional name for Moth Bean.
+UNSUPPORTED,Mentha,Mentha (Mint),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Mentha/Mint is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Mesta,Jute,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,"Mesta (Hibiscus cannabinus/kenaf) is sometimes grouped with Jute in Indian agricultural statistics but is a botanically distinct fibre crop. FarmHelper does not have a separate Mesta entry, and mapping it to Jute would be agriculturally incorrect. Kept Unsupported/Uncertain pending a policy decision."
+C011,Moong,Green Gram,Green Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Moong is the standard Hindi name for Green Gram.
+C014,Moth,Moth Bean,Moth Bean,Pulses,Alias,High,Crop_Calendar_Validated.csv,Moth is the short Indian name for Moth Bean.
+C014,Moth Beans,Moth Bean,Moth Bean,Pulses,Alias,High,combined_output.csv,Plural form of Moth Bean.
+C014,Moth bean(Matki),Moth Bean,Moth Bean,Pulses,Alias,High,fertilizer_merged.csv,Matki is the Marathi name for Moth Bean.
+C014,Mothbean,Moth Bean,Moth Bean,Pulses,Alias,High,Crop_Calendar_Validated.csv,No-space form of Moth Bean.
+C011,Mung,Green Gram,Green Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Mung is an alternate spelling of Moong (Green Gram).
+C011,Mung (Rabi),Green Gram,Green Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Rabi season qualifier; the crop is Green Gram (Mung/Moong).
+C011,Mung Bean (Green Gram/Moong),Green Gram,Green Gram,Pulses,Alias,High,combined_output.csv,Compound name explicitly linking Mung Bean to Green Gram.
+C011,Mung beans,Green Gram,Green Gram,Pulses,Alias,High,fertilizer_merged.csv,Plural form of Mung Beans = Green Gram.
+C011,Mungbean,Green Gram,Green Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Mungbean is another name for Green Gram/Mung Bean.
+UNSUPPORTED,Mushroom,Mushroom,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,"Mushroom is a fungus, not a crop; not in FarmHelper's supported crop list."
+C043,Musk Melon,Muskmelon,Muskmelon,Fruits,Variant,High,fertilizer_merged.csv,Two-word spacing variant of Muskmelon.
+C043,Muskmelon (Kharbuja),Muskmelon,Muskmelon,Fruits,Alias,High,combined_output.csv,Kharbuja is the Hindi name for Muskmelon.
+C016,Mustard,Mustard,Mustard,Oilseeds,Exact,High,Crop_Calendar_Validated.csv,Exact match to FarmHelper crop name.
+C016,Mustard seeds,Mustard,Mustard,Oilseeds,Alias,High,fertilizer_merged.csv,Mustard seeds refers to the crop; same as Mustard.
+C016,Mustard/Toria,Mustard,Mustard,Oilseeds,Variant,High,Crop_Calendar_Validated.csv,Toria is a variety of mustard (B. rapa); entry groups them in the source.
+UNSUPPORTED,NIGER SEED,Niger Seed,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Niger Seed (Guizotia abyssinica) is not in the FarmHelper supported crop list.
+C003,Nagli,Finger Millet,Finger Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,Nagli is a regional name for Finger Millet used in Maharashtra.
+UNSUPPORTED,Niger,Niger Seed,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Niger refers to Niger Seed; not in FarmHelper's supported crop list.
+UNSUPPORTED,OILSEEDS,Oilseeds (generic category),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"OILSEEDS is a broad category label, not a specific crop."
+UNSUPPORTED,Oat,Oat,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Oat is not in the current FarmHelper supported crop list.
+C016,Oilseed (Mustard),Mustard,Mustard,Oilseeds,Alias,High,Crop_Calendar_Validated.csv,Explicit parenthetical confirms this is Mustard.
+UNSUPPORTED,Oilseeds,Oilseeds (generic category),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Oilseeds is a broad category label, not a specific crop."
+UNSUPPORTED,Oilseeds (Til etc.),Oilseeds (generic category),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Grouped oilseed category; cannot map to a single specific crop.
+C030,Okra,Okra,Okra,Vegetables,Exact,High,Crop_Calendar_Validated.csv,Exact match to FarmHelper crop name.
+UNSUPPORTED,Olive,Olive,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Olive is not in the current FarmHelper supported crop list.
+C031,Onian,Onion,Onion,Vegetables,Variant,High,Crop_Calendar_Validated.csv,Onian is a misspelling of Onion.
+C031,Onion,Onion,Onion,Vegetables,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C031,Onion (Pyaaz),Onion,Onion,Vegetables,Alias,High,combined_output.csv,Pyaaz is the Hindi name for Onion.
+UNSUPPORTED,Opium,Opium Poppy,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Opium Poppy is not in the current FarmHelper supported crop list.
+C044,Orange,Orange/Mandarin,Orange/Mandarin,Fruits,Alias,High,fertilizer_merged.csv,Orange is the common English name; maps to FarmHelper's Orange/Mandarin.
+C044,Orange (Santra),Orange/Mandarin,Orange/Mandarin,Fruits,Alias,High,combined_output.csv,Santra is the Hindi name for Orange; maps to FarmHelper's Orange/Mandarin.
+UNSUPPORTED,Other Crop- Specify,Unspecified Crop,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Open-ended category; no specific crop identifiable.
+C017,Other Oilseeds :Soybean,Soybean,Soybean,Oilseeds,Variant,High,Crop_Calendar_Validated.csv,Source explicitly names Soybean as the oilseed; map to Soybean.
+UNSUPPORTED,Other Oilseeds if any NIGER,Niger Seed,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Source identifies this as Niger Seed; not in FarmHelper's supported crop list.
+C017,Other Oilseeds: Soybean,Soybean,Soybean,Oilseeds,Variant,High,Crop_Calendar_Validated.csv,Source explicitly names Soybean; map to Soybean.
+UNSUPPORTED,Other crop- specify,Unspecified Crop,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Open-ended category; no specific crop identifiable.
+UNSUPPORTED,Other crop-specify,Unspecified Crop,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Open-ended category; no specific crop identifiable.
+UNSUPPORTED,Other oilseed:,Oilseed (generic),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Generic oilseed category header; cannot map to a specific crop.
+C005,P. millet,Pearl Millet,Pearl Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,P. millet is an abbreviation for Pearl Millet.
+C006,PADDY,Rice,Rice,Cereals,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Paddy; paddy = rice crop.
+UNSUPPORTED,PEAS,Pea,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,Peas (plural/caps) could mean Field Pea or Garden Pea; neither supported.
+UNSUPPORTED,PULSES:,Pulses (generic category),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"PULSES: is a broad category header, not a specific crop name."
+C006,Paddy,Rice,Rice,Cereals,Alias,High,Crop_Calendar_Validated.csv,Paddy is the standard agricultural term for the rice crop (unhusked).
+C006,Paddy (Chaiti) Rainfed,Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Chaiti is a variety/season tag; the crop is Rice (Paddy).
+C006,Paddy (Irrigated) Early & medium Transplanting,Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Irrigation + transplanting qualifier; the crop is Rice (Paddy).
+C006,Paddy (Jethi) Rainfed,Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Jethi is a local season descriptor; the crop is Rice (Paddy).
+C006,Paddy (Nursery sowing),Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Nursery sowing stage; the crop is Rice (Paddy).
+C006,Paddy (Rabi/Summer),Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Season qualifier; the crop is Rice (Paddy).
+C006,Paddy (Spring upland),Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Season qualifier; the crop is Rice (Paddy).
+C006,Paddy (Transplanted),Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Transplanting method qualifier; the crop is Rice (Paddy).
+C006,Paddy (irrainfed),Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Irrigation qualifier; the crop is Rice (Paddy).
+C006,Paddy (rainfed),Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Rainfed qualifier; the crop is Rice (Paddy).
+C045,Papaya,Papaya,Papaya,Fruits,Exact,High,combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+UNSUPPORTED,Pea,Pea,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,Pea could mean Field Pea or Garden Pea; neither is in FarmHelper's supported crop list.
+C005,Pearl millet,Pearl Millet,Pearl Millet,Cereals,Variant,High,Crop_Calendar_Validated.csv,Capitalization variant of Pearl Millet.
+C005,Pearlmillet,Pearl Millet,Pearl Millet,Cereals,Variant,High,Crop_Calendar_Validated.csv,Spelling variant (no space) of Pearl Millet.
+UNSUPPORTED,Peas,Pea,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,Peas could mean Field Pea or Garden Pea; neither in FarmHelper's list.
+C015,Pegionpea,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Pegionpea is a misspelling of Pigeonpea (Pigeon Pea).
+C015,Pigeon Peas (Tur/Arhar),Pigeon Pea,Pigeon Pea,Pulses,Alias,High,combined_output.csv,Explicit compound name; Tur/Arhar = Pigeon Pea.
+C015,Pigeonpea,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Pigeonpea (no space) is a direct variant of Pigeon Pea.
+UNSUPPORTED,Pineapple,Pineapple,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Pineapple is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Pineapple (Ananas),Pineapple,Unsupported,Unsupported,Unsupported,High,combined_output.csv,Pineapple is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Pistachio Nut,Pistachio,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Pistachio is not in the current FarmHelper supported crop list.
+C046,Pomegranate,Pomegranate,Pomegranate,Fruits,Exact,High,combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C032,Potato,Potato,Potato,Vegetables,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C032,Potato (Aloo),Potato,Potato,Vegetables,Alias,High,combined_output.csv,Aloo is the Hindi name for Potato.
+UNSUPPORTED,Pulses,Pulses (generic category),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Pulses is a broad category label, not a specific crop."
+UNSUPPORTED,Pulses:,Pulses (generic category),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Pulses: is a broad category header, not a specific crop name."
+C033,Pumpkin,Pumpkin,Pumpkin,Vegetables,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C033,Pumpkin (Kaddu),Pumpkin,Pumpkin,Vegetables,Alias,High,combined_output.csv,Kaddu is the Hindi name for Pumpkin.
+C016,R- SEED MUSTARD,Mustard,Mustard,Oilseeds,Variant,High,Crop_Calendar_Validated.csv,R-Seed Mustard refers to rapeseed-mustard; in Indian context maps to Mustard.
+C015,REDGRAM,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Red Gram is a common South Indian name for Pigeon Pea.
+UNSUPPORTED,Rabi Crop,Season label (Rabi),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Rabi Crop is a seasonal category label, not a specific crop."
+UNSUPPORTED,Rabi Crops,Season label (Rabi),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Rabi Crops is a seasonal category label, not a specific crop."
+C004,Rabi Maize,Maize,Maize,Cereals,Variant,High,Crop_Calendar_Validated.csv,Rabi season qualifier; the crop is Maize.
+C034,Radish,Radish,Radish,Vegetables,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C034,Radish (Mooli),Radish,Radish,Vegetables,Alias,High,combined_output.csv,Mooli is the Hindi name for Radish.
+C003,Ragi,Finger Millet,Finger Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,Ragi is the Indian common name for Finger Millet.
+C003,Ragi (Finger Millet),Finger Millet,Finger Millet,Cereals,Alias,High,combined_output.csv,Explicit parenthetical confirms: Ragi = Finger Millet.
+C003,Ragi( naachnnii),Finger Millet,Finger Millet,Cereals,Alias,High,fertilizer_merged.csv,Naachni is a regional name for Ragi/Finger Millet.
+UNSUPPORTED,Raisins,Raisins (dried grapes),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,"Raisins are a processed product of Grapes, not the crop itself."
+UNSUPPORTED,Rajgaras,Amaranth (Grain),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Rajgaras/Rajgira is the Hindi name for Grain Amaranth; not in FarmHelper's list.
+UNSUPPORTED,Rajgro,Amaranth (Grain),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Rajgro appears to be a variant/misspelling of Rajgira (Amaranth); not supported.
+UNSUPPORTED,Rajmah,Kidney Bean (Rajma),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Rajmah/Rajma (Kidney Beans) is not in the FarmHelper supported crop list.
+UNSUPPORTED,Rajmash,Kidney Bean (Rajma),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Rajmash is a variant spelling of Rajmah/Rajma (Kidney Beans); not supported.
+UNSUPPORTED,Ramdana,Amaranth (Grain),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Ramdana is the Hindi name for Grain Amaranth; not in FarmHelper's list.
+C016,Rape Seed & Mustard,Mustard,Mustard,Oilseeds,Alias,High,Crop_Calendar_Validated.csv,Rapeseed and Mustard grouped together in Indian agricultural statistics.
+C016,Rape seed & Mustard,Mustard,Mustard,Oilseeds,Alias,High,Crop_Calendar_Validated.csv,Capitalization variant of Rape Seed & Mustard; same crop grouping.
+C016,Rapeseed & Mustard,Mustard,Mustard,Oilseeds,Alias,High,Crop_Calendar_Validated.csv,Standard Indian crop classification groups Rapeseed with Mustard.
+C016,Rapeseed (Mohri),Mustard,Mustard,Oilseeds,Alias,High,fertilizer_merged.csv,Mohri is a Marathi/regional name for mustard/rapeseed; maps to Mustard.
+C016,Rapeseed (Sarson),Mustard,Mustard,Oilseeds,Alias,High,combined_output.csv,Sarson is the Hindi name for mustard/rapeseed. In Indian datasets Sarson = Mustard.
+C016,Rapseed Mustard,Mustard,Mustard,Oilseeds,Alias,High,Crop_Calendar_Validated.csv,Rapseed is a misspelling of Rapeseed; maps to Mustard in Indian agri. context.
+C006,Rice,Rice,Rice,Cereals,Exact,High,Crop_Calendar_Validated.csv; combined_output.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C035,Ridgegourd,Ridge Gourd,Ridge Gourd,Vegetables,Alias,High,fertilizer_merged.csv,No-space form of Ridge Gourd.
+UNSUPPORTED,SAFFLOWER,Safflower,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Safflower is not in the current FarmHelper supported crop list.
+UNSUPPORTED,SEASAME,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,SEASAME is a misspelling of SESAME; not in FarmHelper's supported crop list.
+UNSUPPORTED,SESAME Irr,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Irrigated Sesame; Sesame not in FarmHelper's supported crop list.
+UNSUPPORTED,SESAME Urr,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Un-irrigated Sesame; Sesame not in FarmHelper's supported crop list.
+UNSUPPORTED,SESAMUM,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,All-caps form of Sesamum (Sesame); not in FarmHelper's supported crop list.
+C017,SOYABEAN,Soybean,Soybean,Oilseeds,Alias,High,Crop_Calendar_Validated.csv,All-caps Indian spelling of Soybean.
+UNSUPPORTED,SUGARCANE,Sugarcane,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,All-caps form of Sugarcane; not in FarmHelper's supported crop list.
+C018,SUNFLOWER,Sunflower,Sunflower,Oilseeds,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Sunflower.
+UNSUPPORTED,Sava,Barnyard Millet,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,"Sava may refer to Barnyard Millet, not supported by FarmHelper."
+UNSUPPORTED,Sawan,Barnyard Millet,Unsupported,Unsupported,Uncertain,Medium,Crop_Calendar_Validated.csv,Sawan may refer to a barnyard/minor millet; not clearly identifiable.
+UNSUPPORTED,Sesame,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Sesame (Til/Sesamum) is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Sesamum,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Sesamum is the botanical/alternate name for Sesame; not in FarmHelper's list.
+C007,Sorghum,Sorghum,Sorghum,Cereals,Exact,High,Crop_Calendar_Validated.csv,Exact match to FarmHelper crop name.
+C017,Soyabean,Soybean,Soybean,Oilseeds,Alias,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Soyabean is the common Indian spelling of Soybean.
+C017,Soybean,Soybean,Soybean,Oilseeds,Exact,High,Crop_Calendar_Validated.csv; combined_output.csv,Exact match to FarmHelper crop name.
+C017,Soybean (Soyabean),Soybean,Soybean,Oilseeds,Alias,High,combined_output.csv,Compound name confirming Soyabean = Soybean.
+UNSUPPORTED,Spinach,Spinach,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Spinach is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Spring Sugarcane,Sugarcane,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Spring season qualifier; Sugarcane not in FarmHelper's supported crop list.
+UNSUPPORTED,Sugarcane,Sugarcane,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv; combined_output.csv,Sugarcane is not in the current FarmHelper supported crop list.
+C005,Summer Bajri,Pearl Millet,Pearl Millet,Cereals,Alias,High,Crop_Calendar_Validated.csv,Bajri = Pearl Millet; Summer is the season qualifier.
+UNSUPPORTED,Summer G'nut,Groundnut,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,G_nut = Groundnut with summer season qualifier; not in FarmHelper's list.
+C006,Summer Paddy,Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Summer season rice; the crop is Rice.
+UNSUPPORTED,Summer Sugarcane,Sugarcane,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Summer season qualifier; Sugarcane not in FarmHelper's supported crop list.
+UNSUPPORTED,Summer/Zaid Crops,Season label (Zaid),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Summer/Zaid Crops is a seasonal category label, not a specific crop."
+C018,Sunflower,Sunflower,Sunflower,Oilseeds,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C018,Sunflower (Surajmukhi),Sunflower,Sunflower,Oilseeds,Alias,High,combined_output.csv,Surajmukhi is the Hindi name for Sunflower.
+UNSUPPORTED,Sweet Potato,Sweet Potato,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Sweet Potato is distinct from Potato; not in FarmHelper's crop list.
+UNSUPPORTED,Sweet Potato (Shakarkandi),Sweet Potato,Unsupported,Unsupported,Unsupported,High,combined_output.csv,Sweet Potato (Shakarkandi) is distinct from Potato; not in FarmHelper's list.
+UNSUPPORTED,TEORA,Teora (Brassica variety),Unsupported,Unsupported,Uncertain,Low,Crop_Calendar_Validated.csv,"TEORA may refer to a local Brassica variety or Toria, but insufficient evidence to map safely."
+UNSUPPORTED,TIL,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,All-caps form of Til (Sesame); not in FarmHelper's supported crop list.
+UNSUPPORTED,TIL/,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Truncated form of Til (Sesame); not in FarmHelper's supported crop list.
+C015,TUR,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Tur; Tur = Pigeon Pea.
+UNSUPPORTED,Tamarind,Tamarind,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Tamarind is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Tapioca(Suran),Tapioca / Elephant Yam,Unsupported,Unsupported,Uncertain,Low,fertilizer_merged.csv,Tapioca (Cassava) and Suran (Elephant Yam) are different crops. The grouping is unclear.
+UNSUPPORTED,Taramira,Taramira,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Taramira (Eruca sativa / Tara) is a distinct oilseed crop, not the same as Mustard."
+UNSUPPORTED,Til,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Til is the Hindi name for Sesame; not in FarmHelper's supported crop list.
+UNSUPPORTED,Til/,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Truncated Til (Sesame) with trailing slash; not in FarmHelper's list.
+UNSUPPORTED,Till,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Till is a variant spelling of Til (Sesame); not in FarmHelper's supported crop list.
+UNSUPPORTED,Tobacco,Tobacco,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Tobacco is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Tobacoo,Tobacco,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Tobacoo is a misspelling of Tobacco; not in FarmHelper's supported crop list.
+C036,Tomato,Tomato,Tomato,Vegetables,Exact,High,Crop_Calendar_Validated.csv; fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C036,Tomato (Tamatar),Tomato,Tomato,Vegetables,Alias,High,combined_output.csv,Tamatar is the Hindi name for Tomato.
+C016,Toria,Mustard,Mustard,Oilseeds,Variant,Medium,Crop_Calendar_Validated.csv,Toria (Brassica rapa var. toria) is an Indian mustard variety under the Mustard crop group.
+C015,Tur,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,Crop_Calendar_Validated.csv,Tur is another common Indian name for Pigeon Pea.
+C051,Turmeric,Turmeric,Turmeric,Spices,Exact,High,fertilizer_merged.csv,Exact match to FarmHelper crop name.
+C051,Turmeric (Haldi),Turmeric,Turmeric,Spices,Alias,High,combined_output.csv,Haldi is the Hindi name for Turmeric.
+C009,URAD,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Urad; Urad = Black Gram.
+C009,URD,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,All-caps form of Urd/Urad; = Black Gram.
+C009,Udad,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Udad is a regional spelling variant of Urad (Black Gram).
+C009,Udid,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Udid is a Marathi/regional variant of Urad (Black Gram).
+C019,Unirr. Cotton,Cotton,Cotton,Cash Crops,Variant,High,Crop_Calendar_Validated.csv,Un-irrigated qualifier; the crop is Cotton.
+C009,Urad,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Urad is the standard Hindi/Indian name for Black Gram.
+C009,Urd,Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Urd is an alternate spelling of Urad (Black Gram).
+C009,Urd (Rabi),Black Gram,Black Gram,Pulses,Alias,High,Crop_Calendar_Validated.csv,Rabi season qualifier; the crop is Black Gram (Urd/Urad).
+UNSUPPORTED,Veg Pea,Vegetable Pea,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Vegetable pea is not in the current FarmHelper supported crop list.
+UNSUPPORTED,Vegetables,Vegetables (generic category),Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,"Vegetables is a broad category label, not a specific crop."
+C008,WHEAT,Wheat,Wheat,Cereals,Variant,High,Crop_Calendar_Validated.csv,All-caps formatting variant of Wheat.
+C047,Water Melon,Watermelon,Watermelon,Fruits,Variant,High,fertilizer_merged.csv,Two-word spacing variant of Watermelon.
+C047,Watermelon,Watermelon,Watermelon,Fruits,Exact,High,combined_output.csv,Exact match to FarmHelper crop name.
+C008,Wheat,Wheat,Wheat,Cereals,Exact,High,Crop_Calendar_Validated.csv; combined_output.csv,Exact match to FarmHelper crop name.
+C008,Wheat (Gehun),Wheat,Wheat,Cereals,Alias,High,combined_output.csv,Gehun is the Hindi name for Wheat.
+C008,Wheat (Irri.),Wheat,Wheat,Cereals,Variant,High,Crop_Calendar_Validated.csv,Irrigated qualifier; the crop is Wheat.
+C008,Wheat (Unirri.),Wheat,Wheat,Cereals,Variant,High,Crop_Calendar_Validated.csv,Un-irrigated qualifier; the crop is Wheat.
+C008,Wheat (irrigated),Wheat,Wheat,Cereals,Variant,High,Crop_Calendar_Validated.csv,Irrigated qualifier; the crop is Wheat.
+C008,Wheat (un irrigated),Wheat,Wheat,Cereals,Variant,High,Crop_Calendar_Validated.csv,Un-irrigated qualifier; the crop is Wheat.
+C008,Wheat Irrigated,Wheat,Wheat,Cereals,Variant,High,Crop_Calendar_Validated.csv,Irrigated qualifier; the crop is Wheat.
+C008,Wheat Rain fed,Wheat,Wheat,Cereals,Variant,High,Crop_Calendar_Validated.csv,Rainfed qualifier; the crop is Wheat.
+C006,Zaid Paddy,Rice,Rice,Cereals,Variant,High,Crop_Calendar_Validated.csv,Zaid season rice; the crop is Rice.
+UNSUPPORTED,Ziziphus mauritiana(Bor),Ber (Indian Jujube),Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Ber (Indian Jujube) is not in the current FarmHelper supported crop list.
+C037,apple,Apple,Apple,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Apple.
+C038,banana,Banana,Banana,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Banana.
+C001,barley,Barley,Barley,Cereals,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Barley.
+C021,bitter_gourd,Bitter Gourd,Bitter Gourd,Vegetables,Alias,High,combined_output.csv; merged_crop_dataset.csv,Underscore-separated lowercase form of Bitter Gourd.
+C009,blackgram,Black Gram,Black Gram,Pulses,Alias,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase no-space compound form of Black Gram.
+C048,blackpepper,Black Pepper,Black Pepper,Spices,Alias,High,combined_output.csv; merged_crop_dataset.csv,No-space lowercase form of Black Pepper.
+C022,bottle_gourd,Bottle Gourd,Bottle Gourd,Vegetables,Alias,High,combined_output.csv; merged_crop_dataset.csv,Underscore-separated lowercase form of Bottle Gourd.
+C023,brinjal,Brinjal,Brinjal,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Brinjal.
+C024,cabbage,Cabbage,Cabbage,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Cabbage.
+C049,cardamom,Cardamom,Cardamom,Spices,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Cardamom.
+UNSUPPORTED,castor,Castor,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Lowercase form of Castor; not in FarmHelper's supported crop list.
+C026,cauliflower,Cauliflower,Cauliflower,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Cauliflower.
+C010,chickpea,Chickpea,Chickpea,Pulses,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Chickpea.
+C039,coconut,Coconut,Coconut,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Coconut.
+UNSUPPORTED,coffee,Coffee,Unsupported,Unsupported,Unsupported,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase form of Coffee; not in FarmHelper's supported crop list.
+C050,coriander,Coriander,Coriander,Spices,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Coriander.
+C050,coriender,Coriander,Coriander,Spices,Variant,High,Crop_Calendar_Validated.csv,coriender is a lowercase misspelling of Coriander.
+C019,cotton,Cotton,Cotton,Cash Crops,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Cotton.
+C027,cucumber,Cucumber,Cucumber,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Cucumber.
+C028,drumstick,Drumstick,Drumstick,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Drumstick.
+C029,garlic,Garlic,Garlic,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Garlic.
+C040,grapes,Grapes,Grapes,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Grapes.
+C012,horsegram,Horse Gram,Horse Gram,Pulses,Alias,High,combined_output.csv; merged_crop_dataset.csv,Lowercase no-space form of Horse Gram.
+C041,jackfruit,Jackfruit,Jackfruit,Fruits,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Jackfruit.
+C020,jute,Jute,Jute,Cash Crops,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Jute.
+UNSUPPORTED,kidneybeans,Kidney Bean (Rajma),Unsupported,Unsupported,Unsupported,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,kidneybeans (lowercase) = Kidney Beans; not in FarmHelper supported crop list.
+C013,lentil,Lentil,Lentil,Pulses,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Lentil.
+C004,maize,Maize,Maize,Cereals,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Maize.
+C042,mango,Mango,Mango,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Mango.
+C014,mothbeans,Moth Bean,Moth Bean,Pulses,Alias,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase plural form of Moth Bean.
+C011,mungbean,Green Gram,Green Gram,Pulses,Alias,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase form of Mungbean = Green Gram.
+C043,muskmelon,Muskmelon,Muskmelon,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Muskmelon.
+C030,okra,Okra,Okra,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Okra.
+C031,onion,Onion,Onion,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Onion.
+C044,orange,Orange/Mandarin,Orange/Mandarin,Fruits,Alias,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase form of Orange; maps to FarmHelper's Orange/Mandarin.
+C045,papaya,Papaya,Papaya,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Papaya.
+C015,pigeon peas(Toor Dal),Pigeon Pea,Pigeon Pea,Pulses,Alias,High,fertilizer_merged.csv,Toor Dal is the split pulse form of Pigeon Pea; same crop.
+C015,pigeonpeas,Pigeon Pea,Pigeon Pea,Pulses,Alias,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Plural lowercase form of Pigeonpea = Pigeon Pea.
+UNSUPPORTED,pineapple,Pineapple,Unsupported,Unsupported,Unsupported,High,combined_output.csv; merged_crop_dataset.csv,Lowercase form of Pineapple; not in FarmHelper's supported crop list.
+C046,pomegranate,Pomegranate,Pomegranate,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Pomegranate.
+C032,potato,Potato,Potato,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Potato.
+C033,pumpkin,Pumpkin,Pumpkin,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Pumpkin.
+C034,radish,Radish,Radish,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Radish.
+C003,ragi,Finger Millet,Finger Millet,Cereals,Alias,High,combined_output.csv; merged_crop_dataset.csv,Lowercase form of Ragi; Ragi = Finger Millet.
+C016,rapeseed,Mustard,Mustard,Oilseeds,Alias,High,combined_output.csv; merged_crop_dataset.csv,"In Indian agricultural context, rapeseed is statistically grouped with mustard."
+C006,rice,Rice,Rice,Cereals,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Rice.
+UNSUPPORTED,sesame seed,Sesame,Unsupported,Unsupported,Unsupported,High,fertilizer_merged.csv,Sesame seed refers to the crop Sesame; not in FarmHelper's supported crop list.
+C007,sorghum,Sorghum,Sorghum,Cereals,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Sorghum.
+C017,soybean,Soybean,Soybean,Oilseeds,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Soybean.
+C018,sunflower,Sunflower,Sunflower,Oilseeds,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Sunflower.
+UNSUPPORTED,sweet_potato,Sweet Potato,Unsupported,Unsupported,Unsupported,High,combined_output.csv; merged_crop_dataset.csv,sweet_potato = Sweet Potato; distinct from Potato; not in FarmHelper's list.
+UNSUPPORTED,till,Sesame,Unsupported,Unsupported,Unsupported,High,Crop_Calendar_Validated.csv,Lowercase form of Till/Til (Sesame); not in FarmHelper's supported crop list.
+C036,tomato,Tomato,Tomato,Vegetables,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Tomato.
+C051,turmeric,Turmeric,Turmeric,Spices,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Turmeric.
+C047,watermelon,Watermelon,Watermelon,Fruits,Variant,High,combined_output.csv; fertilizer_merged.csv; merged_crop_dataset.csv,Lowercase formatting variant of Watermelon.
+C008,wheat,Wheat,Wheat,Cereals,Variant,High,combined_output.csv; merged_crop_dataset.csv,Lowercase formatting variant of Wheat.

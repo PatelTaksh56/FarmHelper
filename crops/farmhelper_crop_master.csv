@@ -1,0 +1,52 @@
+crop_id,crop_name,crop_category
+C001,Barley,Cereals
+C002,Basmati Rice,Cereals
+C003,Finger Millet,Cereals
+C004,Maize,Cereals
+C005,Pearl Millet,Cereals
+C006,Rice,Cereals
+C007,Sorghum,Cereals
+C008,Wheat,Cereals
+C009,Black Gram,Pulses
+C010,Chickpea,Pulses
+C011,Green Gram,Pulses
+C012,Horse Gram,Pulses
+C013,Lentil,Pulses
+C014,Moth Bean,Pulses
+C015,Pigeon Pea,Pulses
+C016,Mustard,Oilseeds
+C017,Soybean,Oilseeds
+C018,Sunflower,Oilseeds
+C019,Cotton,Cash Crops
+C020,Jute,Cash Crops
+C021,Bitter Gourd,Vegetables
+C022,Bottle Gourd,Vegetables
+C023,Brinjal,Vegetables
+C024,Cabbage,Vegetables
+C025,Carrot,Vegetables
+C026,Cauliflower,Vegetables
+C027,Cucumber,Vegetables
+C028,Drumstick,Vegetables
+C029,Garlic,Vegetables
+C030,Okra,Vegetables
+C031,Onion,Vegetables
+C032,Potato,Vegetables
+C033,Pumpkin,Vegetables
+C034,Radish,Vegetables
+C035,Ridge Gourd,Vegetables
+C036,Tomato,Vegetables
+C037,Apple,Fruits
+C038,Banana,Fruits
+C039,Coconut,Fruits
+C040,Grapes,Fruits
+C041,Jackfruit,Fruits
+C042,Mango,Fruits
+C043,Muskmelon,Fruits
+C044,Orange/Mandarin,Fruits
+C045,Papaya,Fruits
+C046,Pomegranate,Fruits
+C047,Watermelon,Fruits
+C048,Black Pepper,Spices
+C049,Cardamom,Spices
+C050,Coriander,Spices
+C051,Turmeric,Spices
